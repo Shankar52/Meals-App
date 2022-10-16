@@ -1,0 +1,29 @@
+.categories {
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-heading {
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.category-img {
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+
+.category-img:hover {
+    transform: scale(1.1);
+}
